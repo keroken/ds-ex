@@ -6,7 +6,5 @@
   "dependencies": {
     "normalize-scss": "^7.0.1"
   },
-  "devDependencies": {
-    "stylelint-prettier": "^2.0.0"
-  }
+  "devDependencies": {}
 }
