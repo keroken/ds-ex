@@ -1,0 +1,15 @@
+{
+  "name": "@ds-ex/scss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "scripts": {
+    "build": "node src/scripts/build.js"
+  }
+}
