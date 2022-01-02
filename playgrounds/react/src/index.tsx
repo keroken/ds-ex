@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { Button } from '@ds-ex/react';
+import { Color } from '@ds-ex/react';
 
-import '@ds-ex/scss/lib/Button.css';
+import '@ds-ex/scss/lib/Utilities.css';
 
 ReactDOM.render(
-  <Button label="Example Button" />,
+  <>
+    <Color hexCode="#FF00FF" />
+  </>,
   document.querySelector('#root')
 );
