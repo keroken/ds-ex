@@ -5,7 +5,7 @@ interface ButtonProps {
 }
 
 const Button: React.FC<ButtonProps> = ({ label }) => {
-  return <button className="dse-button__container">{label}</button>
+  return <button className="dse-button__container">{label || 'Button'} - Label here</button>
 };
 
 export default Button;
