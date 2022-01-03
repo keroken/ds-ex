@@ -4,8 +4,8 @@ import Spacing from '../../foundation/Spacing';
 
 interface ColorProps {
   hexCode: string;
-  width?: string;
-  height?: string;
+  width?: keyof typeof Spacing;
+  height?: keyof typeof Spacing;
 };
 
 const Color: React.FC<ColorProps> = ({ hexCode, width = Spacing.sm, height = Spacing.sm }) => {
