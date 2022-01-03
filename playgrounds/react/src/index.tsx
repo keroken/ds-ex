@@ -7,7 +7,7 @@ import '@ds-ex/scss/lib/Utilities.css';
 
 ReactDOM.render(
   <>
-    <Color hexCode="#FF00FF" />
+    <Color hexCode="#FF00FF" width="lg" height="lg" />
   </>,
   document.querySelector('#root')
 );
